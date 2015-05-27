@@ -1,6 +1,12 @@
 # Starter for HTML/CSS/JS projects
 
-Includes Gulp to process CSSNext into raw CSS, including Autoprefixer and Browser Sync.
+Includes Gulp to process PostCSS into native CSS, with Browser Sync.
+
+PostCSS plugins include:
+
+* Autoprefixer
+* Simple Vars
+* Nested CSS
 
 ## Setup
 
@@ -12,7 +18,7 @@ Then install Gulp using `npm install -g gulp`. This installs Gulp globally and i
 
 Clone this repo to your local computer using this command:
 
-    git clone git@github.com:cssanimation/gulp-sass-starter.git starter
+    git clone git@github.com:cssanimation/gulp-postcss-starter.git starter
 
 With the files downloaded, navigate to your `starter` folder on the command line (or Terminal) and run `npm install` to set things up.
 
@@ -22,7 +28,7 @@ With this set up, you should now be able to run:
 
     gulp
 
-This will process any CSSNext styles and launch a web browser showing the current files. Making changes to the files should result in the page updating automatically.
+This will process any PostCSS styles files and launch a web browser showing the current files. Making changes to the files should result in the page updating automatically.
 
 ## Questions
 
