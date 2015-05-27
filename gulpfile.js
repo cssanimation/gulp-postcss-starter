@@ -77,7 +77,7 @@ gulp.task('browser-sync', ['styles', 'scripts'], function() {
 
 gulp.task('deploy', function() {
   return gulp.src('./public/**/*')
-    .pipe($.ghPages());
+    .pipe(ghPages());
 });
 
 gulp.task('watch', function() {
